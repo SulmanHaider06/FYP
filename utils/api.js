@@ -1,6 +1,5 @@
-const BASE_URL = 'http://192.168.18.53:5000/api';  // Use your laptop's IP address instead of localhost
-import axios from 'axios';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+const BASE_URL = 'http://10.120.140.183:5000/api';  // Use your laptop's IP address instead of localhost
+
 
 
 

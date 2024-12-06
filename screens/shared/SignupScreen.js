@@ -8,7 +8,7 @@ const SignupScreen = ({ navigation }) => {
 
   const handleSignup = async () => {
     try {
-      const response = await fetch('http://192.168.18.53:5000/api/auth/signup', { // Use your laptop's IP address here
+      const response = await fetch('http://10.120.140.183:5000/api/auth/signup', { // Use your laptop's IP address here
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),
